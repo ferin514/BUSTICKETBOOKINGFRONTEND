@@ -1,0 +1,250 @@
+
+
+
+
+
+  /* .parcel-Booking{
+
+      background-image: url(src\assets\image\adminhmpage.png);
+
+      background-position: center;
+
+      background-size: cover;
+
+      background-attachment: fixed;
+
+      position: relative;
+
+      z-index: 2;
+
+
+
+
+  }
+
+  .parcel-Booking ::after{
+
+      content: "";
+
+      width: 100%;
+
+      height: 100%;
+
+      position: absolute;
+
+      top: 0;
+
+      left: 0;
+
+      background-color: rgba(11, 11, 11, 0.5);
+
+      z-index: -1;
+
+  }
+ */
+
+
+  body {
+
+    font-family: Arial, sans-serif;
+
+    background-color: #c0c4c9;
+
+    background-image: url("src\assets\image\adminhmpage.png");
+
+    background-size: cover;
+
+    background-position: center;
+
+    background-repeat: no-repeat;
+
+    min-height: 100vh;
+
+    display: flex;
+
+    flex-direction: column;
+
+
+
+  }
+
+  body::before {
+    content: "";
+    background-image: url("src\assets\image\adminhmpage.png");
+    background-size: cover;
+    background-position: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    filter: blur(0.1px); /* Adjust the blur value as per your preference */
+    z-index: -1;
+  }
+
+
+
+
+
+
+  .button-container {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    height: 80vh;
+
+  }
+
+
+
+
+  .button-row {
+
+    display: flex;
+
+    flex-wrap: wrap;
+
+    justify-content: center;
+
+  }
+
+
+
+
+  .button {
+
+    display: flex;
+
+    flex-direction: column;
+
+    justify-content: center;
+
+    align-items: center;
+
+    width: 300px;
+
+    height: 150px;
+
+    margin: 20px;
+
+    background-color:#175abd;
+
+    color: #cec7c7;
+
+    font-size: 24px;
+
+    font-weight: bold;
+
+    cursor: pointer;
+
+    border: none;
+
+    border-radius: 8px;
+
+    transition: background-color 0.3s, transform 0.3s;
+
+    box-shadow: 0 4px 6px rgba(21, 25, 26, 0.185);
+
+    opacity: 0.8;
+
+  }
+
+
+
+
+  .button:hover {
+
+    background-color: #424641;
+
+    transform: scale(1.05);
+
+  }
+
+
+
+
+
+  .h2 {
+
+    text-align: center;
+
+    color:whitesmoke;
+
+  }
+
+  .header {
+
+      position: fixed;
+
+      top: 0;
+
+      left: 0;
+
+      right: 0;
+
+      background-color: rgba(24, 15, 15, 0.7);
+
+      padding: 20px;
+
+      display: flex;
+
+      justify-content: space-between;
+
+      align-items: center;
+
+      z-index: 999;
+
+    }
+
+
+
+
+  /* Responsive Styles */
+
+  @media screen and (max-width: 768px) {
+
+    .button {
+
+      width: 100%;
+
+    }
+
+  }
+
+
+
+
+  @media screen and (max-width: 480px) {
+
+    .button {
+
+      width: calc(100% - 40px);
+
+      height: 120px;
+
+      margin: 10px;
+
+      font-size: 20px;
+
+    }
+
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+

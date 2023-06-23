@@ -1,0 +1,79 @@
+<!-- <div class="container">
+  <h1>Update Bus</h1>
+    <input type="text" placeholder="Bus Name"  required [(ngModel)]="busName">
+    <input type="text" placeholder="Total Seats"  required [(ngModel)]="totalSeats">
+    <input type="text" placeholder="Bus Number"  required [(ngModel)]="busNumber">
+      <input type="text" placeholder="Reg Number"  required [(ngModel)]="regNo">
+      <input type="text" placeholder="Engine Number" required [(ngModel)]="engineNumber">
+    <select name="busType" id="busType"  required [(ngModel)]="busType">
+      <option value="" disabled selected>Select Bus Type</option>
+      <option value="AC">AC</option>
+      <option value="Non-AC">Non-AC</option>
+    </select>
+    <button type="submit" (click)="updateBus()">Add Bus</button>
+</div> -->
+
+
+
+<head>
+  <title>Bus Ticket Booking</title>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  </head>
+
+  <body>
+
+
+
+  <div>
+  <div class="row">
+
+  
+
+  <div class="form-container">
+  <div class="form-header">
+  <h3>Update Bus Details</h3>
+  <!-- </div> -->
+  <form>
+  <div class="form-group">
+  <!-- <label for="busNumber">Bus Number:</label> -->
+  <input type="text" class="form-control" id="busNumber" placeholder="Enter Bus number">
+  </div>
+  <div class="form-group">
+  <!-- <label for="engineNumber">Engine Number:</label> -->
+  <input type="text" class="form-control" id="engineNumber" placeholder="Enter engine number">
+  </div>
+
+  <div class="form-group">
+  <!-- <label for="gender">Bus Type:</label> -->
+  <select class="form-control" id="bus type">
+    <option value="bus type">Bus Type</option>
+  <option value="AC">AC</option>
+  <option value="Non-AC">Non-AC</option>
+  <option value="other">Other</option>
+  </select>
+  </div>
+
+  <div class="form-group">
+  <!-- <label for="totalSeats">Total Seats:</label> -->
+  <input type="text" class="form-control" id="totalSeats" placeholder="Enter total seats">
+  </div>
+  <div class="button-container">
+  <button type="submit" class="btn btn-primary" (click)="updateBus()" >Update</button>
+  </div>
+  </form>
+  </div>
+  </div>
+
+  </div>
+  </div>
+
+
+
+
+
+
+
+
+  </body>

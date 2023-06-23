@@ -1,0 +1,167 @@
+<!-- <div class="container">
+    <h1>Add Bus</h1>
+      <input type="text" placeholder="Bus Name"  required [(ngModel)]="busName">
+      <input type="text" placeholder="Total Seats"  required [(ngModel)]="totalSeats">
+      <input type="text" placeholder="Bus Number"  required [(ngModel)]="busNumber">
+        <input type="text" placeholder="Reg Number"  required [(ngModel)]="regNo">
+        <input type="text" placeholder="Engine Number" required [(ngModel)]="engineNumber">
+      <select name="busType" id="busType"  required [(ngModel)]="busType">
+        <option value="" disabled selected>Select Bus Type</option>
+        <option value="AC">AC</option>
+        <option value="Non-AC">Non-AC</option>
+      </select>
+      <button type="submit" (click)="addbus()">Add Bus</button>
+  </div> -->
+
+
+
+  <!-- <div class="container">
+
+    <h1>Add Bus</h1>
+
+      <input type="text" placeholder="Bus Name"  required [(ngModel)]="busName">
+
+      <input type="text" placeholder="Total Seats"  required [(ngModel)]="totalSeats">
+
+      <input type="text" placeholder="Bus Number"  required [(ngModel)]="busNumber">
+
+        <input type="text" placeholder="Reg Number"  required [(ngModel)]="regNo">
+
+        <input type="text" placeholder="Engine Number" required [(ngModel)]="engineNumber">
+
+      <select name="busType" id="busType"  required [(ngModel)]="busType">
+
+        <option value="" disabled selected>Select Bus Type</option>
+
+        <option value="AC">AC</option>
+
+        <option value="Non-AC">Non-AC</option>
+
+      </select>
+
+      <button type="submit" (click)="addbus()">Add Bus</button>
+
+  </div> -->
+
+  <head>
+
+    <title>Bus Ticket Booking</title>
+
+     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+</head>
+
+
+
+<body>
+
+
+    <div>
+
+      <div class="row">
+
+
+
+        <div class="col-md-3 user-details">
+
+          <h3>User Details</h3>
+
+          <img src="https://www.bing.com/th?id=OIP.w2McZSq-EYWxh02iSvC3xwHaHa&amp;w=250&amp;h=250&amp;c=8&amp;rs=1&amp;qlt=90&amp;o=6&amp;dpr=1.3&amp;pid=3.1&amp;rm=2" alt="User Image">
+
+          <p style="font-weight:bold ;">Name: John Doe</p>
+
+          <p style="font-weight:bold ;">Mobile: 123-456-7890</p>
+
+          <p style="font-weight:bold ;">Email: johndoe@example.com</p>
+
+        </div>
+
+
+
+        <div class="col-md-9">
+
+
+
+          <div class="form-container">
+
+            <div class="form-header">
+
+              <h3>Add Bus Details</h3>
+
+            </div>
+
+           <form>
+
+              <div class="form-group">
+
+                <label for="busNumber">Bus Number:</label>
+
+                <input type="text" class="form-control" id="busNumber" placeholder="Enter Bus number">
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="engineNumber">Engine Number:</label>
+
+                <input type="text" class="form-control" id="engineNumber" placeholder="Enter engine number">
+
+              </div>
+
+
+
+              <div class="form-group">
+
+                <label for="gender">Bus Type:</label>
+
+                <select class="form-control" id="bus type">
+
+                  <option value="AC">AC</option>
+
+                  <option value="Non-AC">Non-AC</option>
+
+                  <option value="other">Other</option>
+
+                </select>
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="busName">Bus Name:</label>
+
+                <input type="text" class="form-control" id="busName" placeholder="Enter bus name">
+
+              </div>
+
+              <div class="form-group">
+
+                <label for="totalSeats">Total Seats:</label>
+
+                <input type="text" class="form-control" id="totalSeats" placeholder="Enter total seats">
+
+              </div>
+
+              <div class="button-container">
+
+                <button type="submit" class="btn btn-primary" (click)="addbus()">Add</button>
+
+              </div>
+
+            </form>
+
+          </div>
+
+        </div>
+
+
+
+            </div>
+
+          </div>
+
+  </body>

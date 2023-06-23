@@ -1,0 +1,46 @@
+
+
+    .navbar {
+
+        background-color: rgba(10, 12, 14, 0.137);
+
+        height: 10vh;
+
+    }
+
+
+
+
+    .navbar .navbar-brand {
+
+        color: black;
+
+    }
+
+
+
+
+    .navbar .navbar-nav .nav-link {
+
+        color: black;
+
+        font-family: Roboto, Arial, sans-serif;
+
+        font-weight: bold;
+
+    }
+
+
+
+
+    .logo {
+
+      padding-right: 50px;
+
+        width: 50%;
+
+        padding-left: 1px;
+
+    }
+
+
